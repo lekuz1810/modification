@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-background{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    animation: background-slideshow 40s ease-in-out infinite;
+}
+@keyframes background-slideshow {
+    0%,100%{
+        background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(background1.jpg);
+    }
+    25%
+    {
+        background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(slide-show-car4.jpg);
+    }
+    50%
+    {
+        background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(slide-show-car2.jpg);
+    }
+    75%
+    {
+        background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(slide-show-car1.jpg);
+    }
+}
+.nav{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    height: 75px;
+}
+.navbar-button{
+    background-color: #918b89;
+    transition: 0.3s;
+}
+.navbar-button:hover{
+    background-color: #ffffff; 
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+#navbar-elements {
+    text-align: right;
+    text-decoration: none;
+    color: #ffffff;
+    font-family:'Audiowide', cursive ;
+    font-size: 18px;
+    text-align: center;
+}
+#navbar-elements:hover{
+    color: #02eec7;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container1{
+    width: 85%;
+    margin: auto;
+}
+.home-main-heading{
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    margin-top: 5%;
+}
+.home-para1{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.home-search-bar{
+    height: 55px;
+    width: 300px;
+    border-radius: 7px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    outline: none;
+}
+.button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    transition: 0.4s;
+}
+.button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.searchicon{
+    width: 45px;
+    height: 45px;
+    padding: auto;
+}
+.home-NC-button{
+    height: 55px;
+    width: 100%;
+    border-radius: 7px;
+    border: 0;
+    background-color: #03ccaa;
+    font-family:'Khand', sans-serif;
+    font-size: 20px;
+    font-size: bolder;
+    text-align: center;
+    outline: none;
+    transition: 0.35s;
+}
+.home-NC-button:hover{
+    background-color: #1a7a6a;
+    cursor: pointer;
+}
+.rental-background2{
+    background-color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+    margin: auto;
+    padding: 50px;
+}
+.rental-image{
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.rental-image2{
+    height: 600px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.rental-heading2{
+    color: #180a2a;
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.rental-para2{
+    color: #180a2a;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card{
+    height: 380px;
+    width: 100%;
+    background-color: #02eec70c;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.card-icons{
+    height: 90px;
+    width: 90px;
+    padding:15px;
+}
+.card-icons-heading{
+    color: #180a2a;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.register-button{
+    height: 55px;
+    width: 100%;
+    border-radius: 7px;
+    border: 0;
+    background-color: #03ccaa;
+    font-family:'Khand', sans-serif;
+    font-size: 20px;
+    font-size: bolder;
+    text-align: center;
+    outline: none;
+    transition: 0.35s;
+    margin: auto;
+}
+.register-button:hover{
+    background-color: #1a7a6a;
+    cursor: pointer;
+}
+.cars-page-background3{
+    background-color: #0a0411;
+    height: 100vh;
+    background-size: cover;
+    padding: 50px;
+}
+.cars-page-heading3{
+    color: #03ccaa;
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.cars-page-para3{
+    color: #03ccaa;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.card2{
+    height: 40vh;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.icon-background{
+    height: 140px;
+    width: 150px;
+    border-radius: 7px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.card-icons2{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 5px;
+}
+.card-icons-heading2{
+    color: #02eec7;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+.bikes-page-background4{
+    background-color: #ffffff;
+    height: 100vh;
+    background-size: cover;
+    padding: 50px;
+}
+.bikes-page-heading3{
+    color: #f57a16;
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+.bikes-card-icons-headings{
+    color: #f57a16;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+.Vintage-page-background5{
+    
+    background-color: rgb(201, 188, 172);
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+}
+.vintage-page-heading3{
+    color: black;
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+.vintage-card-icons-headings{
+    color: black;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+.About-page-background6{
+    height: 50vh;
+    background-size: cover;
+    background-color: black;
+    padding: 50px;
+}
+.contact-us-heading{
+    color:#03ccaa;
+    font-family:'Oswald', sans-serif;
+    font-size: 15px;
+}
+.contact-us-details{
+    color: #03ccaa;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.about-icons-card{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+}
+.About-icons{
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+}
